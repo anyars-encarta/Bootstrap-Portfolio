@@ -8,26 +8,26 @@
         <title>Anyars & Uzair' Portfolio</title>
     </head>
 
-    <body class="container">
+    <body class="container-fluid">
       <header class="">
-        <nav class="navbar d-flex fixed-top navbar-dark bg-dark flex-row bd-highlight mb-3">
+        <nav class="navbar d-flex navbar-dark bg-dark flex-row bd-highlight mb-3">
           <a class ="p-2 flex-grow-1 navbar-brand bd-highlight" href="#"><h2>My Logo</h2></a>
-          <div class="d-flex bd-highlight collapse navbar-collapse flex-sm-row-reverse justify-content-between">
-            <ul class ="d-flex navbar-nav ms-auto justify-content-between">
-              <li class="nav-item"><img class ="" src="./logos/Menu.png" alt="Hamburger Menu icon"></li>
-              <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-              <li class="nav-item"><img src="./logos/desktop-contact-icon.png" alt="Contact Menu icon"></li>
+          <div class="d-flex bd-highlight flex-sm-row-reverse justify-content-between">
+            <ul class ="d-flex justify-content-between list-unstyled">
+              <li><img src="./logos/Menu.png" alt="Hamburger Menu icon"></li>
+              <li><a class="nav-link" href="#">Portfolio</a></li>
+              <li><a class="nav-link" href="#">About</a></li>
+              <li><a class="nav-link" href="#">Contact</a></li>
+              <li><img src="./logos/desktop-contact-icon.png" alt="Contact Menu icon"></li>
             </ul>
           </div>
         </nav>
       </header>
     
       <main>
-        <article>
+        <article class="d-flex flex-sm-row-reverse p-3 mb-2 bg-secondary text-white">
           <div>
-            <h1>Hey There. <br>I'm Anyars.</h1>
+            <h1 class="fs-1 fw-bolder">Hey There. <br>I'm Anyars.</h1>
             <h2>I'm a Software Developer</h2>
             <p>
               I can help you build a product , feature or website Look through some 
@@ -36,7 +36,7 @@
             </p>
           </div>
 
-          <ul>
+          <ul class="list-unstyled">
             <li><a href="https://twitter.com/anyarsencarta"><img src="./logos/Vector-Cat.png" alt="GitHub logo"></a></li>
             <li><a href="https://linkedin.com/anyarsencarta"><img src="./logos/Linkedin.png" alt="Linkedin logo"></a></li>
             <li><a href="https://twitter.com/anyarsencarta"><img src="./logos/Vector-Hand.png" alt="Vector logo"></a></li>
@@ -46,13 +46,13 @@
         </article>
 
         <div>
-          <h2>My Recent Works</h2><hr>
+          <h2 class="text-center">My Recent Works</h2><hr>
         </div>
 
         <section>
                 <article>
-                  <div>
-                    <img src="./logos/My Recent Works.png" alt="My Recent Works">
+                  <div class="d-flex justify-content-around">
+                    <img class="float-start" src="./logos/My Recent Works.png" alt="My Recent Works">
                     <div>
                       <h2>Multi-Post Stories</h2>
                       <p>
@@ -64,11 +64,11 @@
                   </div>
 
                   <div>
-                    <ul>
+                    <ul class ="list-unstyled">
                       <li><a href="#">HTML</a></li>
                       <li><a href="#">CSS</a></li>
                       <li><a href="#">Javascript</a></li>
-                      <li><button>See Project</button></li>
+                      <button hidden>See Project</button>
                     </ul>
                     
                   </div>
