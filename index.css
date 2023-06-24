@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.works-recent img {
+  width: 350px;
+  height: 300px;
+}
+
+.attach-icon img {
+  float: left;
+  width: 5%;
+  height: 5%;
+  margin-right: 2%;
+}
+
+.social a img {
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.headline {
+  align-items: left;
+  background-color: #1c1a19;
+  margin-bottom: -8px;
+  background-image: url("./logos/Desktop-Illustration-header.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 500px 700px;
+  width: 100%;
+  height: 750px;
+}
+
+.headline h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 45px;
+  color: #ff6b00;
+  width: 250px;
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.headline h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #fff5e1;
+  margin-left: 20px;
+  margin-top: -3px;
+}
+
+.headline .about-myself {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -10px;
+  width: 50%;
+}
+
+.social {
+  padding-bottom: 30px;
+  list-style-type: none;
+  margin-top: 100px;
+}
+
+.social li {
+  margin-right: 5px;
+  color: #505f79;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.works-recent {
+  margin-left: 25%;
+}
+
+.works-recent p {
+  width: 85%;
+}
+
+.about-me p,
+button,
+h3,
+a {
+  color: rgb(255, 255, 255);
+}
+
+.works-recent button {
+  font-size: 17px;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff6b00;
+  font-weight: bold;
+  color: white;
+  width: 124px;
+  height: 48px;
+}
+
+.interesting button {
+  margin-left: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff6b00;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 12px 12px 12px 12px;
+  margin-bottom: 120px;
+}
+
+.select-1 button,
+.select-2 button,
+.select-3 button,
+.select-4 button {
+  margin-left: 10px;
+  font-size: 17px;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff6b00;
+  font-weight: bold;
+  color: white;
+  width: 124px;
+  height: 48px;
+}
+
+.select-2 button,
+.select-3 button,
+.select-4 button {
+  display: none;
+}
+
+.about-me button {
+  border: none;
+  background-color: #ff6b00;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  width: 150px;
+  height: 48px;
+  margin-left: 30px;
+  margin-right: 60px;
+  padding: 12px 12px 12px 12px;
+  margin-bottom: 250px;
+}
+
+.works-recent button:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+  font-size: 17px;
+}
+
+.listed a {
+  text-decoration: none;
+  padding: 12px;
+  border: solid 2px black;
+  color: black;
+}
+
+.works-list a {
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  width: 43px;
+  height: 20px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.listed a:hover {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.listed {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.listed li {
+  margin-right: 10px;
+}
+
+.daily-selection {
+  margin-top: 50px;
+}
+
+.select-1,
+.select-2,
+.select-3,
+.select-4 {
+  margin-bottom: 20px;
+  height: 60vh;
+}
+
+.select-1 h3,
+.select-2 h3,
+.select-3 h3,
+.select-4 h3 {
+  font-family: 'Crete Round', serif;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.select-1 p,
+.select-2 p,
+.select-3 p,
+.select-4 p {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 90px;
+}
+
+.daily-selection .empty-select button {
+  margin-top: 428px;
+  width: 100%;
+  margin-left: 0;
+}
+
+.daily-selection .select-1 {
+  background-image: url("./logos/Img Placeholder 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 427px 586px;
+}
+
+.daily-selection .select-2 {
+  background-image: url("./logos/Img Placeholder 2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 427px 586px;
+}
+
+.daily-selection .select-3 {
+  background-image: url("./logos/Img Placeholder 3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 427px 586px;
+}
+
+.daily-selection .select-4 {
+  background-image: url("./logos/Img Placeholder 4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 427px 586px;
+}
+
+.works-list {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  padding: 10px 12px 10px 12px;
+}
+
+.select-1 button:hover,
+.select-2 button:hover,
+.select-3 button:hover,
+.select-4 button:hover {
+  background-color: white;
+  color: black;
+  border: solid;
+}
+
+.works-list li {
+  margin-right: 10px;
+}
+
+.works-list a:hover {
+  background-color: rgba(255, 107, 0, 0.5);
+}
+
+.about-me {
+  background-color: rgba(28, 26, 25, 1);
+  margin-top: 4%;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 1000px;
+}
+
+.background-holder {
+  background-image: url("./logos/About Me.png");
+  background-repeat: no-repeat;
+  background-size: 200px 300px;
+  background-position: right bottom;
+}
+
+.about-me h2 {
+  color: rgba(255, 107, 0, 1);
+  font-size: 72px;
+  font-weight: 400;
+  font-family: 'Crete Round', serif;
+  text-align: center;
+  padding-top: 35px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.about-me p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 27px;
+  margin-right: 27px;
+  margin-top: -10px;
+  margin-bottom: 27px;
+}
+
+.about-me button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.about-me hr {
+  margin-left: 27px;
+  margin-right: 27px;
+  margin-bottom: 50px;
+  border: 2px solid white;
+}
+
+.attach-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lists li {
+  text-align: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.lists h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  text-align: left;
+}
+
+.interesting {
+  margin-left: 375px;
+}
+
+.interest-text {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  margin-left: 10px auto;
+  margin-right: 50px auto;
+}
+
+.interesting input,
+textarea {
+  font-family: 'Inter', sans-serif;
+  width: 375px;
+}
+
+.interesting input {
+  font-size: 15px;
+  border: none;
+  margin-bottom: 2px;
+}
+
+.interesting .text-area {
+  font-size: 15px;
+  font-style: italic;
+  background-color: #fbf8f7;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.interesting button:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.end-page {
+  border-color: rgba(219, 216, 215, 0.904);
+  margin-bottom: 27px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.footer .init-icon {
+  margin-left: 50%;
+}
+
+.footer-icons {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-right: 0;
+  margin-left: 450px;
+}
+
+.footer a img {
+  width: 17.99px;
+  height: 20px;
+}
+
+.footer-icons li {
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.footer ul {
+  color: #505f79;
+  margin-left: 80px;
+  margin-right: 0;
+  padding-left: 2px;
+  align-items: left;
+  justify-content: left;
+}
+
+.footer hr {
+  margin-left: 125px;
+  margin-right: 30px;
+  border-color: black;
+  border-top: 5px solid;
+  border-radius: 60px 60px 60px 60px;
+  width: 134px;
+  justify-content: center;
+}
